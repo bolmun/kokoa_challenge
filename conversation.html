@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversation | Kokoa Talk</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__company">KT</span>
+        <span class="status-bar__time">11:56</span>
+      </div>
+      <div class="status-bar__column">
+        <span class="status-bar__icons">
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-signal"></i>
+          <span class="status-bar__icons__battery">50%</span>
+          <i class="fas fa-battery-half"></i>
+        </span>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__column">
+        <a href="chat.html"><i class="fas fa-arrow-left"></i></a>
+        <h2 class="header__header">Can Openers'</h2>
+        <span class="heade__number-of-participants">3</span>
+      </div>
+      <div class="header__column">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+    <main class="conversation-main">
+      <span class="conversation__timestamp">
+        Tuesday, 14, 4, 2020
+      </span>
+      <ul class="conversation__list">
+        <li class="incoming-msg">
+          <div class="incoming-msg__avatar"></div>
+          <div class="incoming-msg__contents">
+            <span class="incoming-msg__author">고미녀</span>
+            <span class="incoming-msg__msgs"
+              >저는 고양이에 미쳐있어서 고미녀에요. 봐도봐도 귀여운데 어찌된
+              일일까요?</span
+            >
+          </div>
+          <span class="incoming-msg__time">11:55</span>
+        </li>
+        <li class="sending-msg">
+          <span class="sending-msg__time">11:59</span>
+          <div class="sending-msg__contents">
+            <span class="sending-msg__msgs"
+              >자연스러운 현상이에요, 진정하세요</span
+            >
+          </div>
+        </li>
+        <li class="incoming-msg">
+          <div class="incoming-msg__avatar"></div>
+          <div class="incoming-msg__contents">
+            <span class="incoming-msg__author">대왕캔따개</span>
+            <span class="incoming-msg__msgs">휴...오늘 저녁 메뉴 도움 좀</span>
+          </div>
+          <span class="incoming-msg__time">12:05</span>
+        </li>
+        <li class="sending-msg">
+          <span class="sending-msg__time">12:12</span>
+          <div class="sending-msg__contents">
+            <span class="sending-msg__msgs"
+              >이제 점심시간인데 벌써 저녁 고민을 하시다니, 역시
+              선구자이십니다!</span
+            >
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="write-msg">
+      <div class="write-msg__column"><i class="far fa-plus-square"></i></div>
+      <input type="text" class="write-msgs" />
+      <div class="write-msg__column">
+        <i class="far fa-smile"></i>
+        <i class="fas fa-hashtag"></i>
+      </div>
+    </div>
+  </body>
+</html>
