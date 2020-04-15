@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body class="conversation-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__company">KT</span>
@@ -40,56 +40,53 @@
         <i class="fas fa-bars"></i>
       </div>
     </header>
-    <main class="main">
-      <span class="conversation__timestamp">
-        Tuesday, 14, 4, 2020
-      </span>
-      <ul class="conversation__list">
-        <li class="incoming-msg">
-          <div class="incoming-msg__avatar"></div>
-          <div class="incoming-msg__contents">
-            <span class="incoming-msg__author">고미녀</span>
-            <span class="incoming-msg__msgs"
-              >저는 고양이에 미쳐있어서 고미녀에요. 봐도봐도 귀여운데 어찌된
-              일일까요?</span
-            >
-          </div>
-          <span class="incoming-msg__time">11:55</span>
-        </li>
-        <li class="sending-msg">
-          <span class="sending-msg__time">11:59</span>
-          <div class="sending-msg__contents">
-            <span class="sending-msg__msgs"
-              >자연스러운 현상이에요, 진정하세요</span
-            >
-          </div>
-        </li>
-        <li class="incoming-msg">
-          <div class="incoming-msg__avatar"></div>
-          <div class="incoming-msg__contents">
-            <span class="incoming-msg__author">대왕캔따개</span>
-            <span class="incoming-msg__msgs">휴...오늘 저녁 메뉴 도움 좀</span>
-          </div>
-          <span class="incoming-msg__time">12:05</span>
-        </li>
-        <li class="sending-msg">
-          <span class="sending-msg__time">12:12</span>
-          <div class="sending-msg__contents">
-            <span class="sending-msg__msgs"
-              >이제 점심시간인데 벌써 저녁 고민을 하시다니, 역시
-              선구자이십니다!</span
-            >
-          </div>
-        </li>
-      </ul>
+    <main class="main conversation">
+      <div class="conversation">
+        <div class="conversation__timestamp grey-text">
+          Tuesday, 14, 4, 2020
+        </div>
+        <ul class="conversation__list">
+          <li class="incoming-msg">
+            <img src="images/avatar_chunhyang.jpg" class="chat__avatar" />
+            <div class="incoming-msg__contents">
+              <span class="incoming-msg__author">고미녀</span>
+              <span class="incoming-msg__msgs">I love cats!</span>
+            </div>
+          </li>
+          <li class="sending-msg">
+            <div class="sending-msg__contents">
+              <span class="sending-msg__msgs">me too!</span>
+            </div>
+          </li>
+          <li class="incoming-msg">
+            <img src="images/avatar_doryunnim.jpg" class="chat__avatar" />
+            <div class="incoming-msg__contents">
+              <span class="incoming-msg__author">고미남</span>
+              <span class="incoming-msg__msgs">soooo adorable!</span>
+            </div>
+          </li>
+          <li class="sending-msg">
+            <div class="sending-msg__contents">
+              <span class="sending-msg__msgs">I should go, I miss my cat!</span>
+            </div>
+          </li>
+        </ul>
+      </div>
     </main>
     <div class="write-msg">
-      <div class="write-msg__column"><i class="far fa-plus-square"></i></div>
-      <input type="text" class="write-msgs" />
-      <div class="write-msg__column">
+      <div class="write-msg__column chat-icon">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <input type="text" class="write-msgs" placeholder="write messages" />
+      <div class="write-msg__column btn">
         <i class="far fa-smile"></i>
         <i class="fas fa-hashtag"></i>
       </div>
+    </div>
+    <div class="big-screen">
+      <span class="big-screen__text"
+        >Please, make your screen size smaller!</span
+      >
     </div>
   </body>
 </html>

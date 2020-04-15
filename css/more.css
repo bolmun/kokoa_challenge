@@ -1,0 +1,48 @@
+.kokoa-pay {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+
+.kokoa-pay__btn {
+  background-color: white;
+  border: 1px solid rgb(208, 208, 208);
+  padding: 3px 10px;
+  border-radius: 10px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.kokoa-pay__btn:hover {
+  background-color: rgb(228, 194, 0);
+}
+
+.kokoa-pay__actions span {
+  margin-left: 10px;
+}
+
+.more-icons {
+  margin-top: 30px;
+}
+
+.more-icons__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.more-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-icon i {
+  font-size: 22px;
+  padding-bottom: 10px;
+}

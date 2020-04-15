@@ -1,0 +1,18 @@
+.main-finds {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.main-finds .main-finds__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-finds .main-finds__column i {
+  font-size: 23px;
+  margin-bottom: 7px;
+}

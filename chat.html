@@ -35,47 +35,61 @@
         <i class="fas fa-search"></i>
         <i class="fas fa-user-plus"></i>
         <i class="fas fa-music"></i>
-        <i class="fas fa-cog"></i>
+        <a href="setting.html"><i class="fas fa-cog"></i></a>
       </div>
     </header>
     <main class="main">
-      <ul class="chats__list">
-        <a href="conversation.html"
-          ><li class="chats__chat">
-            <div class="chat__avatar g-avatar"></div>
-            <div class="chat__column">
-              <span class="chat__author">Can Openers</span>
-              <span class="chat__content">This is the THING!</span>
+      <div class="friends">
+        <ul class="friends__list">
+          <a href="conversation.html"
+            ><li class="friends__friend">
+              <div class="friend__column">
+                <img
+                  src="images/bori_mycat.jpeg"
+                  class="friend__avatar g-avatar"
+                />
+                <div class="friend__contents">
+                  <span class="friend__author">Can Openers</span>
+                  <span class="friend__content"
+                    >I should go, I miss my cat!</span
+                  >
+                </div>
+              </div>
+              <div class="friend__column time">
+                <span class="friend__timestamp">오후 11:55</span>
+                <span class="friend__alarm-nums">3</span>
+              </div>
+            </li>
+          </a>
+          <li class="friends__friend">
+            <div class="friend__column">
+              <img src="images/avatar_2.png" class="friend__avatar g-avatar" />
+              <div class="friend__contents">
+                <span class="friend__author">어머니</span>
+                <span class="friend__content grey-text">그래 알았다~</span>
+              </div>
             </div>
-            <div class="chat__column">
-              <span class="chat__timestamp">오후 11:55</span>
-              <span class="chat__alarm-nums">3</span>
+            <div class="friend__column time">
+              <span class="friend__timestamp">오후 9:17</span>
             </div>
           </li>
-        </a>
-        <li class="chats__chat">
-          <div class="chat__avatar g-avatar"></div>
-          <div class="chat__column">
-            <span class="chat__author">어머니</span>
-            <span class="chat__content">그래 알았다~</span>
-          </div>
-          <div class="chat__column">
-            <span class="chat__timestamp">오후 9:17</span>
-          </div>
-        </li>
-        <li class="chats__chat">
-          <div class="chat__avatar g-avatar"></div>
-          <div class="chat__column">
-            <span class="chat__author">SSG닷컴</span>
-            <span class="chat__content"
-              >김집사 고객님의 주문내역 입니다. ▪︎결제금액: 40,150원</span
-            >
-          </div>
-          <div class="chat__column">
-            <span class="chat__timestamp">오후 1:53</span>
-          </div>
-        </li>
-      </ul>
+          <li class="friends__friend">
+            <div class="friend__column">
+              <img src="images/ssg.png" class="friend__avatar g-avatar" />
+              <div class="friend__contents">
+                <span class="friend__author">SSG닷컴</span>
+                <span class="friend__content grey-text"
+                  >김집사 고객님의 주문내역 입니다. ▪︎결제금액: 40,150원</span
+                >
+              </div>
+            </div>
+            <div class="friend__column time">
+              <span class="friend__timestamp">오후 1:53</span>
+              <span class="friend__alarm-nums">2</span>
+            </div>
+          </li>
+        </ul>
+      </div>
     </main>
     <nav class="nav">
       <ul class="nav__list">
@@ -102,5 +116,10 @@
         </li>
       </ul>
     </nav>
+    <div class="big-screen">
+      <span class="big-screen__text"
+        >Please, make your screen size smaller!</span
+      >
+    </div>
   </body>
 </html>
