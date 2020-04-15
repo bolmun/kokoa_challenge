@@ -1,0 +1,61 @@
+.main-me__avatar {
+  width: 70px;
+  height: 70px;
+}
+
+.main-me {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.main-me__name,
+.birthday__banner-title {
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.birthday {
+  padding: 15px 0px;
+  border-top: 1px solid rgb(240, 240, 240);
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.birthday__title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.birthday__banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.birthday__banner-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.birthday__banner-column {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.birthday__banner-more i {
+  margin-left: 5px;
+}
+
+.birthday__avatar {
+  width: 50px;
+  height: 50px;
+  background-color: #f46a71;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+}

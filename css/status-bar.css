@@ -1,0 +1,21 @@
+.status-bar {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  color: #666666;
+  font-size: 17px;
+  padding: 10px 20px 5px 20px;
+  z-index: 1;
+  background-color: white;
+}
+
+.status-bar__company {
+  padding-right: 3px;
+}
+
+.status-bar i {
+  padding-left: 3px;
+}
